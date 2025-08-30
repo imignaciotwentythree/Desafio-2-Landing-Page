@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#main {
+  height: 500px;
+  background-image: url('https://img.freepik.com/fotos-premium/suplementos-deportivos-mancuernas-primer-plano-sobre-fondo-oscuro-composicion-plana-proteinas_179738-951.jpg?w=2000');
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main h1 {
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
+}
+
+#products {
+  padding: 50px 0;
+  background-color: #f7f7f7;
+}
+
+.product {
+  width: 33.33%;
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.product .product-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.product .product-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.product h2 {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.product p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #666;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20
+}
